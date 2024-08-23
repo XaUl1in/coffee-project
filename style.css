@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: black;
+}
+
+.header {
+    position: fixed;
+    background-color: black;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.nav-bar-main {
+    margin: 0 20%;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-bar-right {
+    display: flex;
+    gap: 1.5rem;
+}
+
+/*Section Home*/
+
+.section-home{
+    background-image: url(imagens/home-img.jpg);
+    height: 100%;
+    width: 500px;
+}
