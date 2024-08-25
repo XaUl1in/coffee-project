@@ -5,16 +5,19 @@
     color: white;
     text-decoration: none;
     font-size: 20px;
-    background-color: black;
+}
+
+section{
+    height: 100vh;
 }
 
 .header {
-    position: fixed;
     background-color: black;
     display: flex;
     text-align: center;
     align-items: center;
     justify-content: center;
+    border-bottom: 0.5px solid white;
 }
 
 
@@ -31,8 +34,43 @@
 
 /*Section Home*/
 
-.section-home{
+.section-home {
     background-image: url(imagens/home-img.jpg);
-    height: 100%;
-    width: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 98.9vw;
+}
+
+.home-container {
+    position: relative;
+    background-color: transparent;
+}
+
+.home-content {
+    background-color: transparent;
+    position: absolute;
+    margin-top: 20vh;
+    margin-left: 10rem;
+}
+
+.tittle{
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+.para{
+    font-weight: 100;
+    font-size: 20px;
+    width: 700px;
+}
+
+#home-button{
+    background-color: #E0A75E;
+    width: 200px;
+    height: 40px;
+    padding: 1rem 3 rem;
+    font-size: 1rem;
+    cursor: pointer;
 }
